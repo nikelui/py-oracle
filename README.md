@@ -14,10 +14,10 @@ The main target will be android phones, but the libraries are multi-platform so 
 \* Coming soon \*
 
 ## Planned features
-- [] Custom dice roller using dice equations (text only)
-- [] Pre-defined dice rolls (graphical)
-- [] Pre-defined card decks (poker, tarots)
-- [] Custom card decks (either template or image based)
+- [ ] Custom dice roller using dice equations (text only)
+- [ ] Pre-defined dice rolls (graphical)
+- [ ] Pre-defined card decks (poker, tarots)
+- [ ] Custom card decks (either template or image based)
 
 # Roadmap
 \* Nothing yet \*
