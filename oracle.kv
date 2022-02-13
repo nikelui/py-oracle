@@ -1,0 +1,19 @@
+#:kivy 2.0.0
+
+<MainMenu>:
+    FloatLayout:
+        canvas.before:
+            Color:
+                rgba: 0, 1, 0, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 10
+        Label:
+            text: 'A Python oracle'
+        Button:
+            text: 'button1'
+        Button:
+            text: 'button2'
