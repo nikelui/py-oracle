@@ -1,19 +1,30 @@
 import kivy
 from kivy.app import App
-from kivy.uix.label import Label
-from kivy.uix.widget import Widget
-from kivy.properties import NumericProperty, ObjectProperty
-from kivy.clock import Clock
-from random import randint
+from kivy.core.window import Window
+from kivy.uix.screenmanager import ScreenManager, Screen
 
-class MainMenu(Widget):
+class MainMenu(Screen):
+    pass
+
+class MainOracle(Screen):
+    pass
+
+class LoadOracle(Screen):
+    pass
+
+class Settings(Screen):
     pass
 
 class oracleApp(App):
     def build(self):
-        self.load_kv('oracle.kv')
-        start = MainMenu()
-        return start
+        Window.size = (300, 535)  # DEBUG (smartphone ratio: 16/9). Comment this line before building
+        sm = ScreenManager()
+        sm.add_widget(MainMenu(name='menu'))
+        sm.add_widget(MainOracle(name='oracle'))
+        sm.add_widget(LoadOracle(name='load'))
+        sm.add_widget(Settings(name='settings'))
+
+        return sm
 
 if __name__ == '__main__':
     oracleApp().run()

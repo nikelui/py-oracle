@@ -1,19 +1,88 @@
 #:kivy 2.0.0
 
 <MainMenu>:
-    FloatLayout:
-        canvas.before:
-            Color:
-                rgba: 0, 1, 0, 1
-            Rectangle:
-                pos: self.pos
-                size: self.size
     BoxLayout:
         orientation: 'vertical'
-        spacing: 10
+        spacing: 30
+        padding: 30
+
         Label:
             text: 'A Python oracle'
+            size: self.texture_size
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            font_size: '20sp'
         Button:
-            text: 'button1'
+            id: 'new_button'
+            text: 'New'
+            size: self.texture_size
+            font_size: '16sp'
+            on_press:
+                root.manager.transition.direction = 'left'
+                root.manager.current='oracle'
         Button:
-            text: 'button2'
+            text: 'Load'
+            id: 'load_button'
+            size: self.texture_size
+            font_size: '16sp'
+            on_press:
+                root.manager.transition.direction = 'left'
+                root.manager.current='load'
+        Button:
+            text: 'Settings'
+            id: 'settings_button'
+            size: self.texture_size
+            font_size: '16sp'
+            on_press:
+                root.manager.transition.direction = 'left'
+                root.manager.current='settings'
+
+<MainOracle>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 30
+        padding: 30
+
+        Label:
+            text: 'Main oracle\nwindow'
+            size: self.texture_size
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            font_size: '40sp'
+        Button:
+            text: 'Back'
+            on_press:
+                root.manager.transition.direction = 'right'
+                root.manager.current='menu'
+
+<LoadOracle>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 30
+        padding: 30
+
+        Label:
+            text: 'Loading\nwindow'
+            size: self.texture_size
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            font_size: '40sp'
+        Button:
+            text: 'Back'
+            on_press:
+                root.manager.transition.direction = 'right'
+                root.manager.current='menu'
+
+<Settings>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 30
+        padding: 30
+
+        Label:
+            text: 'Settings\nwindow'
+            size: self.texture_size
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            font_size: '40sp'
+        Button:
+            text: 'Back'
+            on_press:
+                root.manager.transition.direction = 'right'
+                root.manager.current='menu'
