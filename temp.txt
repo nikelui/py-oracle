@@ -1,0 +1,33 @@
+current scene
+parents
+wealth
+skills
+campaign
+allies
+flaws
+experience
+community
+current story
+weapons
+last story
+history
+relics
+superiors
+future action
+last scene
+antagonist
+knowledge
+treasure
+family
+previous scene
+equipment
+retainers
+last action
+fame
+friends
+contacts
+rewards
+recent scene
+the character
+power
+enemy

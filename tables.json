@@ -1,0 +1,784 @@
+{
+  "UNE": {
+    "NPC-modifier": [
+      "superfluous",
+      "addicted",
+      "conformist",
+      "nefarious",
+      "sensible",
+      "untrained",
+      "romantic",
+      "unreasonable",
+      "skilled",
+      "neglectful",
+      "lively",
+      "forthright",
+      "idealistic",
+      "unsupportive",
+      "rational",
+      "coarse",
+      "foolish",
+      "cunning",
+      "delightful",
+      "miserly",
+      "inept",
+      "banal",
+      "logical",
+      "subtle",
+      "reputable",
+      "wicked",
+      "lazy",
+      "pessimistic",
+      "solemn",
+      "habitual",
+      "meek",
+      "helpful",
+      "unconcerned",
+      "generous",
+      "docile",
+      "cheery",
+      "pragmatic",
+      "serene",
+      "thoughtful",
+      "hopeless",
+      "pleasant",
+      "insensitive",
+      "titled",
+      "inexperienced",
+      "prying",
+      "oblivious",
+      "refined",
+      "indispensable",
+      "scholarly",
+      "conservative",
+      "uncouth",
+      "willful",
+      "indifferent",
+      "fickle",
+      "elderly",
+      "sinful",
+      "naive",
+      "privileged",
+      "glum",
+      "likable",
+      "lethargic",
+      "defiant",
+      "obnoxious",
+      "insightful",
+      "tactless",
+      "fanatic",
+      "plebeian",
+      "childish",
+      "pious",
+      "uneducated",
+      "inconsiderate",
+      "cultured",
+      "revolting",
+      "curious",
+      "touchy",
+      "needy",
+      "dignified",
+      "pushy",
+      "kind",
+      "corrupt",
+      "jovial",
+      "shrewd",
+      "liberal",
+      "compliant",
+      "destitute",
+      "conniving",
+      "careful",
+      "alluring",
+      "defective",
+      "optimistic",
+      "affluent",
+      "despondent",
+      "mindless",
+      "passionate",
+      "devoted",
+      "established",
+      "unseemly",
+      "dependable",
+      "righteous",
+      "confident"
+    ],
+    "NPC-noun": [
+      "gypsy",
+      "witch",
+      "merchant",
+      "expert",
+      "commoner",
+      "judge",
+      "ranger",
+      "occultist",
+      "reverend",
+      "thug",
+      "drifter",
+      "journeyman",
+      "statesman",
+      "astrologer",
+      "duelist",
+      "jack-of-all-trades",
+      "aristocrat",
+      "preacher",
+      "artisan",
+      "rogue",
+      "missionary",
+      "outcast",
+      "mercenary",
+      "caretaker",
+      "hermit",
+      "orator",
+      "chieftain",
+      "pioneer",
+      "burglar",
+      "vicar",
+      "officer",
+      "explorer",
+      "warden",
+      "outlaw",
+      "adept",
+      "bum",
+      "sorcerer",
+      "laborer",
+      "master",
+      "ascendant",
+      "villager",
+      "magus",
+      "conscript",
+      "worker",
+      "actor",
+      "herald",
+      "highwayman",
+      "fortune-hunter",
+      "governor",
+      "scrapper",
+      "monk",
+      "homemaker",
+      "recluse",
+      "steward",
+      "polymath",
+      "magician",
+      "traveler",
+      "vagrant",
+      "apprentice",
+      "politician",
+      "mediator",
+      "crook",
+      "civilian",
+      "activist",
+      "hero",
+      "champion",
+      "cleric",
+      "slave",
+      "gunman",
+      "clairvoyant",
+      "patriarch",
+      "shopkeeper",
+      "crone",
+      "adventurer",
+      "soldier",
+      "entertainer",
+      "craftsman",
+      "scientist",
+      "ascetic",
+      "superior",
+      "performer",
+      "magister",
+      "serf",
+      "brute",
+      "inquisitor",
+      "lord",
+      "villain",
+      "professor",
+      "servant",
+      "charmer",
+      "globetrotter",
+      "sniper",
+      "courtier",
+      "priest",
+      "tradesman",
+      "hitman",
+      "wizard",
+      "beggar",
+      "tradesman",
+      "warrior"
+    ],
+    "motivation-verb": [
+      "advise",
+      "obtain",
+      "attempt",
+      "spoil",
+      "oppress",
+      "interact",
+      "create",
+      "abduct",
+      "promote",
+      "conceive",
+      "blight",
+      "progress",
+      "distress",
+      "possess",
+      "record",
+      "embrace",
+      "contact",
+      "pursue",
+      "associate",
+      "prepare",
+      "shepherd",
+      "abuse",
+      "indulge",
+      "chronicle",
+      "fulfill",
+      "drive",
+      "review",
+      "aid",
+      "follow",
+      "advance",
+      "guard",
+      "conquer",
+      "hinder",
+      "plunder",
+      "construct",
+      "encourage",
+      "agonize",
+      "comprehend",
+      "administer",
+      "relate",
+      "take",
+      "discover",
+      "deter",
+      "acquire",
+      "damage",
+      "publicize",
+      "burden",
+      "advocate",
+      "implement",
+      "understand",
+      "collaborate",
+      "strive",
+      "complete",
+      "compel",
+      "join",
+      "assist",
+      "defile",
+      "produce",
+      "insitute",
+      "account",
+      "work",
+      "accompany",
+      "offend",
+      "guide",
+      "learn",
+      "persecute",
+      "communicate",
+      "process",
+      "report",
+      "develop",
+      "steal",
+      "suggest",
+      "weaken",
+      "achieve",
+      "secure",
+      "inform",
+      "patronize",
+      "depress",
+      "determine",
+      "seek",
+      "manage",
+      "suppress",
+      "proclaim",
+      "operate",
+      "access",
+      "refine",
+      "compose",
+      "undermine",
+      "explain",
+      "discourage",
+      "attend",
+      "detect",
+      "execute",
+      "maintain",
+      "realize",
+      "convey",
+      "rob",
+      "establish",
+      "overthrow",
+      "support"
+    ],
+    "motivation-noun": [
+      [
+        "wealth",
+        "hardship",
+        "affluence",
+        "resources",
+        "prosperity",
+        "poverty",
+        "opulence",
+        "deprivation",
+        "success",
+        "distress",
+        "contraband",
+        "music",
+        "literature",
+        "technology",
+        "alcohol",
+        "medicines",
+        "beauty",
+        "strength",
+        "intelligence",
+        "force"
+      ],
+      [
+        "the wealthy",
+        "the populous",
+        "enemies",
+        "the public",
+        "religion",
+        "the poor",
+        "family",
+        "the elite",
+        "academia",
+        "the forsaken",
+        "the law",
+        "the government",
+        "the oppressed",
+        "friends",
+        "criminals",
+        "allies",
+        "secret societies",
+        "the world",
+        "military",
+        "the church"
+      ],
+      [
+        "dreams",
+        "discretion",
+        "love",
+        "freedom",
+        "pain",
+        "faith",
+        "slavery",
+        "enlightenment",
+        "racism",
+        "sensuality",
+        "dissonance",
+        "peace",
+        "discrimination",
+        "disbelief",
+        "pleasure",
+        "hate",
+        "happiness",
+        "servitude",
+        "harmony",
+        "justice"
+      ],
+      [
+        "gluttony",
+        "lust",
+        "envy",
+        "greed",
+        "laziness",
+        "wrath",
+        "pride",
+        "purity",
+        "moderation",
+        "vigilance",
+        "zeal",
+        "composure",
+        "charity",
+        "modesty",
+        "atrocities",
+        "cowardice",
+        "narcissism",
+        "compassion",
+        "valor",
+        "patience"
+      ],
+      [
+        "advice",
+        "propaganda",
+        "science",
+        "knowledge",
+        "communications",
+        "lies",
+        "myths",
+        "riddles",
+        "stories",
+        "legends",
+        "industry",
+        "new religions",
+        "progress",
+        "animals",
+        "ghosts",
+        "magic",
+        "nature",
+        "old religions",
+        "expertise",
+        "spirits"
+      ]
+    ],
+    "NPC-power": {
+      "1.order": {
+        "much weaker": [
+          1,
+          2
+        ],
+        "slightly weaker": [
+          3,
+          10
+        ],
+        "comparable": [
+          11,
+          90
+        ],
+        "slightly stronger": [
+          91,
+          98
+        ],
+        "much stronger": [
+          99,
+          100
+        ]
+      },
+      "2.calm": {
+        "much weaker": [
+          1,
+          4
+        ],
+        "slightly weaker": [
+          5,
+          15
+        ],
+        "comparable": [
+          16,
+          85
+        ],
+        "slightly stronger": [
+          86,
+          96
+        ],
+        "much stronger": [
+          97,
+          100
+        ]
+      },
+      "3.standard": {
+        "much weaker": [
+          1,
+          5
+        ],
+        "slightly weaker": [
+          6,
+          20
+        ],
+        "comparable": [
+          21,
+          80
+        ],
+        "slightly stronger": [
+          81,
+          95
+        ],
+        "much stronger": [
+          96,
+          100
+        ]
+      },
+      "4.disarray": {
+        "much weaker": [
+          1,
+          8
+        ],
+        "slightly weaker": [
+          9,
+          25
+        ],
+        "comparable": [
+          26,
+          75
+        ],
+        "slightly stronger": [
+          76,
+          92
+        ],
+        "much stronger": [
+          93,
+          100
+        ]
+      },
+      "5.chaos": {
+        "much weaker": [
+          1,
+          12
+        ],
+        "slightly weaker": [
+          13,
+          30
+        ],
+        "comparable": [
+          31,
+          70
+        ],
+        "slightly stronger": [
+          71,
+          88
+        ],
+        "much stronger": [
+          89,
+          100
+        ]
+      }
+    },
+    "NPC-mood": {
+      "loved": {
+        "withdrawn": [
+          1,
+          1
+        ],
+        "guarded": [
+          2,
+          6
+        ],
+        "cautious": [
+          7,
+          16
+        ],
+        "neutral": [
+          17,
+          31
+        ],
+        "sociable": [
+          32,
+          70
+        ],
+        "helpful": [
+          71,
+          85
+        ],
+        "forthcoming": [
+          86,
+          100
+        ]
+      },
+      "friendly": {
+        "withdrawn": [
+          1,
+          2
+        ],
+        "guarded": [
+          3,
+          8
+        ],
+        "cautious": [
+          9,
+          20
+        ],
+        "neutral": [
+          21,
+          40
+        ],
+        "sociable": [
+          41,
+          76
+        ],
+        "helpful": [
+          77,
+          89
+        ],
+        "forthcoming": [
+          90,
+          100
+        ]
+      },
+      "peaceful": {
+        "withdrawn": [
+          1,
+          3
+        ],
+        "guarded": [
+          4,
+          11
+        ],
+        "cautious": [
+          12,
+          25
+        ],
+        "neutral": [
+          26,
+          55
+        ],
+        "sociable": [
+          56,
+          82
+        ],
+        "helpful": [
+          83,
+          93
+        ],
+        "forthcoming": [
+          94,
+          100
+        ]
+      },
+      "neutral": {
+        "withdrawn": [
+          1,
+          5
+        ],
+        "guarded": [
+          6,
+          15
+        ],
+        "cautious": [
+          16,
+          30
+        ],
+        "neutral": [
+          31,
+          70
+        ],
+        "sociable": [
+          71,
+          85
+        ],
+        "helpful": [
+          86,
+          95
+        ],
+        "forthcoming": [
+          96,
+          100
+        ]
+      },
+      "distrustful": {
+        "withdrawn": [
+          1,
+          7
+        ],
+        "guarded": [
+          8,
+          18
+        ],
+        "cautious": [
+          19,
+          46
+        ],
+        "neutral": [
+          47,
+          76
+        ],
+        "sociable": [
+          77,
+          90
+        ],
+        "helpful": [
+          91,
+          97
+        ],
+        "forthcoming": [
+          98,
+          100
+        ]
+      },
+      "hostile": {
+        "withdrawn": [
+          1,
+          11
+        ],
+        "guarded": [
+          12,
+          24
+        ],
+        "cautious": [
+          25,
+          61
+        ],
+        "neutral": [
+          62,
+          81
+        ],
+        "sociable": [
+          82,
+          93
+        ],
+        "helpful": [
+          94,
+          98
+        ],
+        "forthcoming": [
+          99,
+          100
+        ]
+      },
+      "hated": {
+        "withdrawn": [
+          1,
+          15
+        ],
+        "guarded": [
+          16,
+          30
+        ],
+        "cautious": [
+          31,
+          69
+        ],
+        "neutral": [
+          70,
+          84
+        ],
+        "sociable": [
+          85,
+          94
+        ],
+        "helpful": [
+          95,
+          99
+        ],
+        "forthcoming": [
+          100,
+          100
+        ]
+      }
+    },
+    "NPC-focus": [
+      "current scene",
+      "parents",
+      "wealth",
+      "skills",
+      "campaign",
+      "allies",
+      "flaws",
+      "experience",
+      "community",
+      "current story",
+      "weapons",
+      "last story",
+      "history",
+      "relics",
+      "superiors",
+      "future action",
+      "last scene",
+      "antagonist",
+      "knowledge",
+      "treasure",
+      "family",
+      "previous scene",
+      "equipment",
+      "retainers",
+      "last action",
+      "fame",
+      "friends",
+      "contacts",
+      "rewards",
+      "recent scene",
+      "the character",
+      "power",
+      "enemy"
+    ]
+  },
+  "MYTHIC": {
+    "A": "A"
+  }
+}
